@@ -1,0 +1,15 @@
+<string-array name="auto_silence_entries_my_app_for_music"
+	      xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<item>1<xliff:g id="multiplication sign">\u00D7</xliff:g></item>
+<item>2<xliff:g>\u00D7</xliff:g></item>
+<item>3<xliff:g>\u00D7</xliff:g></item>
+<item>4<xliff:g>\u00D7</xliff:g></item>
+<item>5<xliff:g>\u00D7</xliff:g></item>
+<item>6<xliff:g>\u00D7</xliff:g></item>
+<item>7<xliff:g>\u00D7</xliff:g></item>
+<item>8<xliff:g>\u00D7</xliff:g></item>
+<item>9<xliff:g>\u00D7</xliff:g></item>
+<item>10<xliff:g>\u00D7</xliff:g></item>
+<item>20<xliff:g>\u00D7</xliff:g></item>
+<item>30<xliff:g>\u00D7</xliff:g></item>
+</string-array>

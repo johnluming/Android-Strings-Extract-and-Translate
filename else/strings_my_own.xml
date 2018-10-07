@@ -1,0 +1,160 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Full Song Alarm</string>
+
+    <string name="pref_sound_type">Sound type</string>
+    <string-array name="entries_sound_type">
+        <item>Music</item>
+        <item>Ringtone</item>
+    </string-array>
+    <string name="pref_music">Select music</string>
+    <string name="pref_ringtone">Select ringtone</string>
+    <string name="pref_version">App version</string>
+    <string name="pref_24_hour_format">24-hour format</string>
+
+    <string name="pref_auto_dismissed_notification">Auto-dismissed notification</string>
+    <string name="summary_auto_dismissed_notification">Leave a notification after an alarm auto-dismissed</string>
+    <string name="pref_alarm_time">Time</string>
+    <string name="edit_alarm">Edit alarm</string>
+    <string name="no_repeat">No repeat</string>
+
+
+
+    <string name="settings_saved">Settings saved</string>
+    <!-- search box hint in music selecting screen -->
+    <string name="search">Search</string>
+    <string name="music_selected">Music selected</string>
+    <string name="changes_saved">Changes saved</string>
+    <!-- summary for the "select music" preference -->
+    <string name="summary_music_not_specified">Not chosen, using system alarm ringtone</string>
+    <!--missed alarm notification pref-->
+
+
+    <string-array name="auto_silence_entries_my_app">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>35 minutes</item>
+        <item>40 minutes</item>
+        <item>45 minutes</item>
+        <item>50 minutes</item>
+        <item>55 minutes</item>
+        <item>60 minutes</item>
+        <item>@string/auto_silence_never</item>
+    </string-array>
+
+    <!--music length preference-->
+    <string-array name="entries_music_length">
+        <item>1<xliff:g id="multiplication sign">\u00D7</xliff:g></item>
+        <item>2<xliff:g>\u00D7</xliff:g></item>
+        <item>3<xliff:g>\u00D7</xliff:g></item>
+        <item>4<xliff:g>\u00D7</xliff:g></item>
+        <item>5<xliff:g>\u00D7</xliff:g></item>
+        <item>6<xliff:g>\u00D7</xliff:g></item>
+        <item>7<xliff:g>\u00D7</xliff:g></item>
+        <item>8<xliff:g>\u00D7</xliff:g></item>
+        <item>9<xliff:g>\u00D7</xliff:g></item>
+        <item>10<xliff:g>\u00D7</xliff:g></item>
+        <item>20<xliff:g>\u00D7</xliff:g></item>
+        <item>30<xliff:g>\u00D7</xliff:g></item>
+        <item>40<xliff:g>\u00D7</xliff:g></item>
+        <item>50<xliff:g>\u00D7</xliff:g></item>
+        <item>60<xliff:g>\u00D7</xliff:g></item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>35 minutes</item>
+        <item>40 minutes</item>
+        <item>45 minutes</item>
+        <item>50 minutes</item>
+        <item>55 minutes</item>
+        <item>60 minutes</item>
+        <item>@string/auto_silence_never</item>
+    </string-array>
+
+
+    <string-array name="entries_snooze_duration">
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>3 minutes</item>
+        <item>4 minutes</item>
+        <item>5 minutes</item>
+        <item>6 minutes</item>
+        <item>7 minutes</item>
+        <item>8 minutes</item>
+        <item>9 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+        <item>35 minutes</item>
+        <item>40 minutes</item>
+        <item>45 minutes</item>
+        <item>50 minutes</item>
+        <item>55 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+
+
+
+    <string-array name="entries_fade_in">
+        <item>Off</item>
+        <item> 1 second</item>
+        <item> 2 seconds</item>
+        <item> 5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+
+
+
+    <!-- region less important strings -->
+
+    <!-- notification when user denies storage permission -->
+    <string name="notification_when_denied_storage_permission">This app needs storage permission to select music file</string>
+
+    <string name="description_service_play_alarm_sound">Play alarm music</string>
+    <string name="description_service_preview_volume">preview alarm volume</string>
+    <string name="description_service_preview_music">preview alarm music</string>
+
+    <string name="failed_update_alarm">Failed to update alarm in database</string>
+    <string name="failed_add_alarm">Failed to add alarm to database</string>
+    <string name="failed_delete_alarm">Failed to delete alarm in database</string>
+
+    <!-- notification channels -->
+    <string name="channel_alarm_ringing_or_snoozing">Alarm ringing</string>
+    <string name="channel_description_alarm_ringing_or_snoozing">Show notification when alarm is ringing or snoozing</string>
+    <string name="channel_alarm_auto_dismissed">Alarm auto-dismissed</string>
+    <string name="channel_description_alarm_auto_dismissed" translatable="false">@string/summary_auto_dismissed_notification</string>
+
+    <!-- endregion -->
+
+</resources>
